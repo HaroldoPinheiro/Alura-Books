@@ -29,3 +29,56 @@
     background-repeat: no-repeat;
     background-position: 0px;
 }
+
+@media screen and (min-width:1024px) {
+    .contato{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap:22px;
+        padding: 40px 150px 43px 150px;
+    }
+    .contato__left{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap:19px;
+        width: 50%;
+    }
+    .contato__right{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width:50%
+    }
+    .contato__titulo{
+        font-size: 1.5em;
+    }
+    .contato__texto{
+        font-weight: 300;
+    }
+    .contato__email{
+        width: 87%;
+    }
+}
+
+@media screen and (min-width: 1728px) {
+    .contato{
+        gap: 24px;
+        padding: 64px 477px;
+    }
+    .contato__left{
+        display: flex;
+        justify-content: left;
+        align-items: left;
+        gap: 4px;
+        width: 55%;
+    }
+    .contato__right{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width:45%
+    }
+}
