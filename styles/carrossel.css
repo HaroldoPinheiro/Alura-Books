@@ -51,6 +51,9 @@
 .descrição__texto{
     font-size: 14px;
 }
+.descrição img{
+    width: 55%;
+}
 .card__botões{
     display:flex;
     justify-content: space-between;
@@ -94,6 +97,9 @@
     .descrição__texto{
         font-size: 16px;
     }
+    .descrição img{
+        width: 25%;
+    }
 } 
 
 @media screen and (min-width: 1728px){
@@ -114,5 +120,8 @@
     }
     .descrição__titulo{
         font-size: 2em;
+    }
+    .descrição img{
+        width: 30%;
     }
 } 
